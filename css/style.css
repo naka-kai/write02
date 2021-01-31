@@ -321,4 +321,220 @@ a {
 .page-one {
   background-color: #eeeeee;
 }
+
+footer {
+  margin-bottom: 50px;
+}
+
+.footer h4 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.footer-top {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 77px 0 88px;
+  border: solid #E6E6E6;
+  border-width: 1px 0 1px;
+  margin-top: 104px;
+}
+
+.footer-top-profile {
+  width: 250px;
+  margin-right: 87px;
+}
+
+.footer-top-profile p {
+  clear: both;
+}
+
+.footer-top-profile-top img {
+  border-radius: 50%;
+  width: 100px;
+  float: left;
+  margin-right: 22px;
+}
+
+.footer-top-profile-top-right h3 {
+  font-size: 19px;
+  line-height: 32px;
+  color: #333333;
+  padding-top: 10px;
+}
+
+.footer-top-profile-top-right-sns a {
+  margin-right: 20px;
+}
+
+.footer-top-profile-top-right-sns .twitter::before {
+  font-family: "Font Awesome 5 Free","Font Awesome 5 Brands";
+  content: "\f099";
+  font-weight: 400;
+  color: #999999;
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.footer-top-profile-top-right-sns .facebook::before {
+  font-family: "Font Awesome 5 Free","Font Awesome 5 Brands";
+  content: "\f39e";
+  font-weight: 400;
+  color: #999999;
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.footer-top-profile-top-right-sns .instagram::before {
+  font-family: "Font Awesome 5 Free","Font Awesome 5 Brands";
+  content: "\f16d";
+  color: #999999;
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.footer-top-profile-bottom {
+  margin-top: 50px;
+}
+
+.footer-top-profile-bottom p {
+  width: 270px;
+  font-size: 17px;
+  line-height: 29px;
+  color: #666666;
+}
+
+.footer-top-right {
+  width: 210px;
+  margin-right: 44px;
+}
+
+.footer-top-right h4 {
+  margin-bottom: 30px;
+}
+
+.footer-top-right p {
+  font-size: 16px;
+  line-height: 27px;
+  color: #666666;
+}
+
+.footer-top-recentry {
+  width: 140px;
+  margin-right: 100px;
+}
+
+.footer-top-recentry h4 {
+  margin-bottom: 30px;
+}
+
+.footer-top-recentry-one {
+  margin-bottom: 20px;
+}
+
+.footer-top-recentry-one h2 {
+  margin-bottom: 8px;
+}
+
+.footer-top-recentry-one a {
+  font-size: 17px;
+  line-height: 20px;
+  color: #666666;
+  font-weight: 400;
+  border-bottom: 1px solid #dddddd;
+}
+
+.footer-top-recentry-one a:hover {
+  color: #c49029;
+}
+
+.footer-top-recentry-one-date {
+  font-size: 15px;
+  line-height: 25px;
+  color: #999999;
+}
+
+.footer-top-categorys {
+  width: 215px;
+}
+
+.footer-top-category {
+  width: 140px;
+}
+
+.footer-top-category h4 {
+  margin-bottom: 30px;
+}
+
+.footer-top-category-one {
+  font-size: 17px;
+  line-height: 20px;
+  color: #666666;
+  font-weight: 400;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+
+.footer-top-search {
+  margin-top: 100px;
+  height: 40px;
+  width: 214px;
+  border: 1px solid #E6E6E6;
+}
+
+.footer-top-search input {
+  height: 40px;
+  width: 214px;
+  font-size: 17px;
+  line-height: 19px;
+  color: #444444;
+  border: none;
+}
+
+.footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 114px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.footer-bottom-sns {
+  position: absolute;
+  left: 0;
+}
+
+.footer-bottom-sns i {
+  color: #999999;
+  font-size: 23px;
+  line-height: 29px;
+  margin-right: 25px;
+}
+
+.footer-bottom-sns i:hover {
+  color: #111111;
+}
+
+.footer-bottom-siteCredit {
+  font-size: 16px;
+  line-height: 28px;
+  color: #999999;
+}
+
+.footer-bottom-siteCredit a {
+  color: #666666;
+}
+
+.footer-bottom-siteCredit a:hover {
+  color: #111111;
+}
 /*# sourceMappingURL=style.css.map */

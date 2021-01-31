@@ -1,3 +1,4 @@
+
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -288,7 +289,6 @@ a {
                 color: #c49029;
             }
         }
-
     }
 
     &-text {
@@ -327,3 +327,226 @@ a {
     }
 }
 
+footer {
+    margin-bottom: 50px;
+}
+
+.footer {
+
+
+    h4 {
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+    }
+
+    &-top {
+        height: 300px;
+        display: flex;
+        padding: 77px 0 88px;
+        border: solid #E6E6E6;
+        border-width: 1px 0 1px;
+        margin-top: 104px;
+
+        &-profile {
+            width: 250px;
+            margin-right: 87px;
+
+            p {
+                clear: both;
+            }
+
+            &-top {
+
+                img {
+                    border-radius: 50%;
+                    width: 100px;
+                    float: left;
+                    margin-right: 22px;
+                }
+                &-right {
+
+                    h3 {
+                        font-size: 19px;
+                        line-height: 32px;
+                        color: #333333;
+                        padding-top: 10px;
+                    }
+
+                    &-sns {
+
+                        a {
+                            margin-right: 20px;
+                        }
+
+
+                        .twitter::before {
+                            font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+                            content: "\f099";
+                            font-weight: 400;
+                            color: #999999;
+                            font-size: 17px;
+                            line-height: 29px;
+                        }
+                        .facebook::before {
+                            font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+                            content: "\f39e";
+                            font-weight: 400;
+                            color: #999999;
+                            font-size: 17px;
+                            line-height: 29px;
+                        }
+                        .instagram::before {
+                            font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+                            content: "\f16d";
+                            color: #999999;
+                            font-size: 17px;
+                            line-height: 29px;
+                        }
+                    }
+                }
+            }
+            &-bottom {
+
+                margin-top: 50px;
+                p {
+                    width: 270px;
+                    font-size: 17px;
+                    line-height: 29px;
+                    color: #666666;
+                }
+            }
+        }
+
+        &-right {
+            width: 210px;
+            margin-right: 44px;
+
+            h4 {
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 27px;
+                color: #666666;
+            }
+        }
+
+        &-recentry {
+            width: 140px;
+            margin-right: 100px;
+
+            h4 {
+                margin-bottom: 30px;
+            }
+
+            &-one {
+                margin-bottom: 20px;
+
+                h2 {
+                    margin-bottom: 8px;
+                }
+
+                a {
+                    font-size: 17px;
+                    line-height: 20px;
+                    color: #666666;
+                    font-weight: 400;
+                    border-bottom: 1px solid #dddddd;
+
+                    &:hover {
+                        color: #c49029;
+                    }
+                }
+
+                &-date {
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #999999;
+                }
+            }
+
+
+        }
+
+        &-categorys {
+            width: 215px;
+        }
+
+        &-category {
+            width: 140px;
+
+            h4 {
+                margin-bottom: 30px;
+            }
+
+            &-one {
+                font-size: 17px;
+                line-height: 20px;
+                color: #666666;
+                font-weight: 400;
+                border-bottom: 1px solid #dddddd;
+                margin-bottom: 20px;
+            }
+        }
+
+        &-search {
+            margin-top: 100px;
+            height: 40px;
+            width: 214px;
+            border: 1px solid #E6E6E6;
+
+            input {
+                height: 40px;
+                width: 214px;
+                font-size: 17px;
+                line-height: 19px;
+                color: #444444;
+                border: none;
+            }
+        }
+
+    }
+
+    &-bottom {
+        display: flex;
+        height: 114px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        &-sns {
+            position: absolute;
+            left: 0;
+
+            i {
+                color: #999999;
+                font-size: 23px;
+                line-height: 29px;
+                margin-right: 25px;
+
+                &:hover {
+                    color: #111111;
+                }
+            }
+        }
+
+        &-siteCredit {
+            font-size: 16px;
+            line-height: 28px;
+            color: #999999;
+
+            a {
+                color: #666666;
+
+                &:hover {
+                    color: #111111;
+                }
+            }
+        }
+
+
+    }
+
+}
