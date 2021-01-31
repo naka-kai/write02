@@ -246,6 +246,84 @@ a {
         font-size: 27px;
         line-height: 49px;
         color: #777777;
-        margin: 80px 0 130px 0;
+        margin: 80px 0 120px 0;
     }
 }
+
+.article {
+
+    &-one {
+        display: flex;
+    }
+
+    &-date {
+        width: 120px;
+        font-size: 17px;
+        line-height: 30px;
+        margin-top: 10px;
+
+        a {
+            color: #999999;
+
+            &:hover {
+                color: #666666;
+            }
+        }
+
+    }
+
+    &-right {
+        width: 692px;
+        margin-left: 215px;
+    }
+
+    &-title {
+        font-size: 22px;
+        line-height: 29px;
+
+        a {
+            color: #111111;
+
+            &:hover {
+                color: #c49029;
+            }
+        }
+
+    }
+
+    &-text {
+        font-size: 17px;
+        line-height: 30px;
+        color: #666666;
+        margin: 26px 0 73px;
+    }
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+
+    li {
+        border: 1px solid #cccccc;
+        margin-right: 10px;
+        font-size: 17px;
+        line-height: 30px;
+
+
+        a {
+            color: #777777;
+            display: block;
+            padding: 10px 20px;
+
+            &:hover {
+                color: #333333;
+            }
+        }
+
+    }
+
+    &-one {
+        background-color: #eeeeee;
+    }
+}
+
